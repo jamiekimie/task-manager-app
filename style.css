@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+body {
+    /* background-image: url('background-image/background1.jpg'); */
+    background-image: url('background-image/background2.png');
+    /* background-image: url('background-image/background3.png'); */
+    /* background-image: url('background-image/background4.png'); */
+    /* background-image: url('background-image/background5.jpg'); */
+    /* background-image: url('background-image/background6.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: max-content;
+}
+
+.goTitle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    display: flex!important;
+    justify-content: space-around;
+}
+
+.noTaskMsg {
+    text-align: center;
+    font-style: italic;
+    padding-top: 2em;
+    
+}
+
+.form-assigned-input.is-valid, .form-assigned-input.is-invalid, .form-dueDate-input.is-invalid, .form-dueDate-input.is-valid {
+    background-image: none;
+    padding-right: inherit;
+}
+
+#assignedToList {
+    padding-left: 0;
+    margin: 0 auto;
+    border: 0px;
+    width: 8rem;
+}
+
+/* to fix box size */
+textarea {
+    resize: none;
+    height: 1000px;
+}
+
+.addTaskBtn {
+    width: 8.5rem;
+    height: 3rem;
+}
+
+.teamModal {
+    display:flex;
+    justify-content: space-around;
+}
+
+/* .teamCard {
+    width: 100px;
+} */
+
+/* .taskcontainer {
+    height: 3000px;
+    display: flex;
+    border: 1px, solid, black;
+    padding-top: 2em;
+} */
+
+.container {
+    min-height: 860px;
+}
+
+.containerAbout {
+    display: contents;
+}
+
+.modalContainer {
+    min-height: 500px;
+}
+
+/* .teamcard {
+    min-height: 800px;
+} */
+
+.card {
+    padding: 1.5em;
+    border-radius: 0.4em;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.displayNone {
+    display: none;
+}
+
+.music-player-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em; 
+}
+
+.music-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.music-button-style {
+    width: 7rem;
+}
+
+footer {
+    /* display: inline;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; */
+    height: 100px;
+    margin-bottom: 5em;
+}
+
+.website-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0em 1em 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.reference {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1em;
+}
+
+#footer-text1 {
+    /* display: flex; */
+    padding: 20em, 0em;
+    flex-direction: row;
+    font-size: 1em;
+    justify-content: center;
+}
+
+#footer-text2 {
+    /* display: flex; */
+    padding: 20em, 0em;
+    flex-direction: row;
+    font-size: 0.8em;
+    margin-bottom: 0em;
+    justify-content: center;
+}
+/* footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+} */
+
+.row {
+    scroll-margin-inline: 0;
+}
+
